@@ -1,15 +1,10 @@
 html{
 	font-size: 16px;
-	display:flex;
-	justify-content:center;
-	flex-flow: row wrap;
 }
 
 body {
 	font-size: 1em;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	max-width: 1200px;
-	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -28,8 +23,6 @@ body {
 }
 header,
 footer {
-	max-width: 1200px;
-	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -66,14 +59,11 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	max-width: 1200px;
-	width: 90%;
-	height: auto;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display:flex;
-	justify-content:space-between;
-	flex-flow: row wrap;
+	justify-content:space-evenly;
+	flex-flow: column;
 }
 
 header h1 {
@@ -107,8 +97,6 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	max-width: 1200px;
-	width: 90%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -118,17 +106,16 @@ header nav ul li a{
 
 .main-image {
 	height: auto;
-
 }
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
-
+/*
 .main-title {
-	height: auto;
+	height: 200px;
 
-}
+}*/
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
@@ -143,7 +130,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	/*width: 33%;*/
 	height: 260px;
 	border-top: 1px solid #eee;
 }
@@ -184,10 +171,11 @@ header nav ul li a{
 
 /*The widths are in a percentage!*/
 footer {
-	height: auto;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	text-align: center;
+	width:100%;
+	font-size: 2em;
 }
 footer span {
 	font-family: 'Galada', cursive;
