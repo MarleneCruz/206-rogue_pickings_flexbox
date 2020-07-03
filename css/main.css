@@ -74,25 +74,33 @@ header h1 span {
 	color: #77a466;
 }
 
-header nav {
-	
-	padding: 46px 0;
+.navbar {
+		padding: 46px 0;
+
 }
-header nav ul {
+.navbar a {
 	margin: 0;
-	padding: 0;
+	padding: 10px;
+	text-decoration: none;
+	color:#77a466;
+	display: flex;
+	align-content: space-between;
+	align-items: center;
+	flex-flow: column;
 }
-header nav ul li {
+/*header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
 	padding: 0 10px;
 	list-style: none;
+	align-items: center;
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
-}
+
+}*/
 
 /*The widths are in a percentage!*/
 .top-section,
