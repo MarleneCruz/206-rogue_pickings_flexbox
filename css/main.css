@@ -87,6 +87,7 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 0.875em;
 	padding: 0 10px;
+	list-style: none;
 }
 header nav ul li a{
 	text-decoration: none;
