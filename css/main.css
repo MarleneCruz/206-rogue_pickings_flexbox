@@ -8,7 +8,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
 }
 
 .container{
@@ -20,13 +19,6 @@ body {
 	align-items: center;
 	flex-flow: row wrap;
 	
-}
-header,
-footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
 }
 
 
@@ -59,10 +51,10 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	
 	margin: 0 auto;
 	display:flex;
-	justify-content:space-evenly;
+	justify-content:center;
+	align-items: center;
 	flex-flow: column;
 }
 
@@ -83,6 +75,8 @@ nav {
 		flex-flow: column;
 }
 nav a {
+	text-transform: uppercase;
+	font-weight:700;
 	margin: 0;
 	padding: 10px;
 	text-decoration: none;
@@ -113,9 +107,7 @@ header nav ul li a{
 	flex-flow: row wrap;
 }
 
-.main-image {
-	height: auto;
-}
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -144,21 +136,21 @@ header nav ul li a{
 }
 
 .section-one h4 {
-	padding: 10px 30px;
+	padding: inherit;
 }
 
 
 .section-two h4,
 .section-three h4 {
-	padding: 10px 30px;
+	padding: inherit;
 }
 
 .menu {
 	list-style: none;
-	padding: 10px;
+	padding: 0px;
 }
 .menu li {
-	padding: 10px 20px;
+	padding: 10px 0;
 	color:#77a466;
 }
 
@@ -166,20 +158,27 @@ header nav ul li a{
 	color: #333;
 	font-size: 1em;
 	line-height: 21px;
+	padding: inherit;
 }
 
 .address {
 	font-size: 1em;
 	line-height: 24px;
+	padding: inherit;
 }
 
 /*The widths are in a percentage!*/
 footer {
+	
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	text-align: center;
 	width:100%;
 	font-size: 1.25em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 footer span {
 	font-family: 'Galada', cursive;
