@@ -59,7 +59,7 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	border-bottom: 3px solid #77a466;
+	
 	margin: 0 auto;
 	display:flex;
 	justify-content:space-evenly;
@@ -69,24 +69,25 @@ header {
 header h1 {
 	margin: 0;
 	padding: 38px 0;
+	border-bottom: 3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
 }
 
-.navbar {
+nav {
 		padding: 46px 0;
-
+        display: flex;
+		align-content: space-between;
+		align-items: center;
+		flex-flow: column;
 }
-.navbar a {
+nav a {
 	margin: 0;
 	padding: 10px;
 	text-decoration: none;
 	color:#77a466;
-	display: flex;
-	align-content: space-between;
-	align-items: center;
-	flex-flow: column;
+	
 }
 /*header nav ul li {
 	text-transform: uppercase;
@@ -143,7 +144,7 @@ header nav ul li a{
 }
 
 .section-one h4 {
-	padding: 10px 0;
+	padding: 10px 30px;
 }
 
 
@@ -154,10 +155,10 @@ header nav ul li a{
 
 .menu {
 	list-style: none;
-	padding: 0;
+	padding: 10px;
 }
 .menu li {
-	padding: 10px 0;
+	padding: 10px 20px;
 	color:#77a466;
 }
 
@@ -178,7 +179,7 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 	width:100%;
-	font-size: 2em;
+	font-size: 1.25em;
 }
 footer span {
 	font-family: 'Galada', cursive;
